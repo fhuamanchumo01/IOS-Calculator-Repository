@@ -25,4 +25,9 @@ extension UIButton {
             })
         }
     }
+    
+    func selectOperation(_ selected: Bool){
+        backgroundColor = selected ? .blue : .red
+        
+    }
 }
